@@ -7,11 +7,11 @@
 			"matches": [
 				"<all_urls>"
 			],
-			"js": ["jquery-3.2.0.min.js", "content.js"]
+			"js": ["jquery-3.2.0.min.js", "link_opener/content.js"]
 		}
 	],
 	"background": {
-		"scripts": ["background.js"]
+		"scripts": ["link_opener/background.js"]
 	},
 	"browser_action": {
 		"default_icon": "icon.png"
